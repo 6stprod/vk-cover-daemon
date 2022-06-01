@@ -1,6 +1,13 @@
 # vk-cover-daemon
 Демон для динамичного изменения обложки в сообществе VK с добавлением текста (На примере паблика jokenews.ru)
 
+Изображение, с которым работает скрипт:
+
+![Изображение, с которым будем работать](https://github.com/6stprod/vk-cover-daemon/blob/main/image.jpg?raw=true)
+
+То, что получается на выходе
+
+![То, что получается в итоге](https://sun9-79.userapi.com/impf/CDVRvTOk61Z1_7QOth5k8SPkde91yaMo2Feq2A/ZR-AVFMFduE.jpg?size=795x265&quality=95&crop=0,0,795,265&sign=490b7f5c5f04dbe767c144a8f858f0ed&c_uniq_tag=Y_CX5HK5_csALkKvHg2y3d0DzpCtSnHK-aWF1zz2Qmc&type=cover_group)
 
 
 # Как это работает
@@ -20,3 +27,6 @@
 В коде демона укажите URL адрес скрипта, который вы поместили на хост
 
 Запущенный демон будет раз в минуту выполнять скрипт.
+
+Написано на скорую руку. 
+При наличии на хосте https, можно поместить весь код в демона и выполнять только его
